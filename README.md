@@ -88,6 +88,8 @@ The backend provides a REST API to manage blog posts. Below are some key endpoin
 | POST   | `/api/posts`      | Create a new blog post    |
 | PUT    | `/api/posts/{id}` | Update an existing post   |
 | DELETE | `/api/posts/{id}` | Delete a blog post        |
+| POST | `/api/users/login` | User Login |
+| GET | ` `/api/posts/verify-owner/{id} | Check if the user can edit |
 
 ## 📜 Folder Structure
 ```
