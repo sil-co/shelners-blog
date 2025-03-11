@@ -1,0 +1,9 @@
+[submodule "frontend"]
+	path = frontend
+	url = https://github.com/sil-co/shelners-blog-front
+[submodule "backend-spring-boot"]
+	path = backend-spring-boot
+	url = https://github.com/sil-co/shelners-blog-back
+[submodule "database"]
+	path = database
+	url = https://github.com/sil-co/shelners-blog-db
