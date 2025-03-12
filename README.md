@@ -1,8 +1,10 @@
 # Shelner's Blog
 
-Shelner's Blog is a simple blog website built with modern web technologies. 
-It allows read, update, and delete blog posts(only owner...). 
-The project is powered by React (with React Router v7 and TailwindCSS) on the frontend, and Spring Boot with MySQL (running on Docker) on the backend.
+Shelner's Blog is a simple blog website built with web technologies. 
+It allows read, update blog posts(only owner...). 
+The project is powered by React (with React Router v7 and TailwindCSS) on the frontend, Spring Boot or ASP.NET Core Web API and MySQL (running on Docker) on the backend.
+
+**Use either Spring-Boot or ASP.NET as backend.**
 
 ## 🚀 Technologies Used
 
@@ -10,10 +12,13 @@ The project is powered by React (with React Router v7 and TailwindCSS) on the fr
 - **React** ([React Router v7](https://reactrouter.com/start/framework/installation))
 - **Tailwind CSS** (for styling)
 
-### Backend:
+### Backend(Spring Boot):
 - **Spring Boot** (REST API development)
 - **Spring Data JPA** (for database access)
 - **Spring Security** (if authentication is implemented)
+
+### Backend(ASP.NET)
+- **ASP.NET Core Web API**
 
 ### Database:
 - **MySQL** (running inside Docker)
@@ -23,11 +28,12 @@ The project is powered by React (with React Router v7 and TailwindCSS) on the fr
 ### Prerequisites
 Make sure you have the following installed on your machine:
 - **Node.js** (for running the frontend)
-- **Java 17+** (for running Spring Boot backend. This project is using 21)
-- **Docker & Docker Compose** (for MySQL database)
+- **Java 21** (for running Spring Boot backend.)
 - **Maven** (for building the backend)
+- **Docker** (for MySQL database Container)
+- **dotnet** (for running ASP.NET backend)
 
-### Database Setup (MySQL)
+## Database Setup (MySQL)
 1. Clone the repository:
    ```sh
    git clone https://github.com/sil-co/shelners-blog-db.git
@@ -47,7 +53,7 @@ Make sure you have the following installed on your machine:
    docker-compose up -d
    ```
 
-### Backend Setup (Spring Boot)
+## Backend Setup (Spring Boot)
 1. Clone the repository:
    ```sh
    git clone https://github.com/sil-co/shelners-blog-back.git
@@ -64,7 +70,7 @@ Make sure you have the following installed on your machine:
    mvn spring-boot:run
    ```
 
-### Backend Setup (ASP.NET)
+## Backend Setup (ASP.NET)
 1. Clone the Repository
 ```sh
 git clone https://github.com/sil-co/backend-dotnet.git
@@ -74,7 +80,7 @@ git clone https://github.com/sil-co/backend-dotnet.git
 3. Start the API
 `dotnet run`
 
-### Frontend Setup (React)
+## Frontend Setup (React)
 1. Navigate to the frontend directory:
    ```sh
    cd ../frontend
@@ -104,9 +110,10 @@ The backend provides a REST API to manage blog posts. Below are some key endpoin
 ## 📜 Folder Structure
 ```
 /shelners-blog
-│── /backend          # Spring Boot backend
+│── /backend-spring-boot # Spring Boot backend
 │   ├── /src          # Java source code
 │   ├── pom.xml       # Maven dependencies
+│── /backend-dotnet   # ASP.NET backend
 │── /frontend         # React frontend
 │   ├── /app          # React components
 │   ├── package.json  # Node dependencies
@@ -117,7 +124,3 @@ The backend provides a REST API to manage blog posts. Below are some key endpoin
 
 ## 📜 License
 This project is licensed under the MIT License.
-
----
-Feel free to contribute to this project by submitting issues and pull requests!
-
