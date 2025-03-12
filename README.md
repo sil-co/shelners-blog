@@ -1,5 +1,9 @@
 # Shelner's Blog
 
+## Demo
+![Demo video](assets/blog-tuto-3times.mov)
+
+## About
 Shelner's Blog is a simple blog website built with web technologies. 
 It allows read, update blog posts(only owner...). 
 The project is powered by React (with React Router v7 and TailwindCSS) on the frontend, Spring Boot or ASP.NET Core Web API and MySQL (running on Docker) on the backend.
