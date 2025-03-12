@@ -1,7 +1,7 @@
 # Shelner's Blog
 
 ## Demo
-![Demo video](assets/blog-tuto-3times.mov)
+![Demo video](assets/blog-tuto-3times.gif)
 
 ## About
 Shelner's Blog is a simple blog website built with web technologies. 
