@@ -58,6 +58,7 @@ Make sure you have the following installed on your machine:
    ```sh
    git clone https://github.com/sil-co/shelners-blog-back.git
    ```
+   
 2. Configure `application.properties`:
    ```properties
    spring.datasource.url=jdbc:mysql://localhost:3306/blog-spring-db?useSSL=false&serverTimezone=UTC
@@ -81,9 +82,11 @@ git clone https://github.com/sil-co/backend-dotnet.git
 `dotnet run`
 
 ## Frontend Setup (React)
-1. Navigate to the frontend directory:
+1. Clone the Repository
    ```sh
-   cd ../frontend
+   git clone https://github.com/sil-co/shelners-blog-front.git
+   # If you use Spring Boot, do the following to switch branches
+   git checkout for-spring-boot
    ```
 2. Install dependencies:
    ```sh
