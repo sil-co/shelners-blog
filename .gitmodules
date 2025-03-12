@@ -7,3 +7,6 @@
 [submodule "database"]
 	path = database
 	url = https://github.com/sil-co/shelners-blog-db
+[submodule "backend-dotnet"]
+	path = backend-dotnet
+	url = https://github.com/sil-co/backend-dotnet

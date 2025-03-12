@@ -64,6 +64,16 @@ Make sure you have the following installed on your machine:
    mvn spring-boot:run
    ```
 
+### Backend Setup (ASP.NET)
+1. Clone the Repository
+```sh
+git clone https://github.com/sil-co/backend-dotnet.git
+```
+2.  Install Dependencies
+`dotnet restore`
+3. Start the API
+`dotnet run`
+
 ### Frontend Setup (React)
 1. Navigate to the frontend directory:
    ```sh
